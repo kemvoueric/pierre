@@ -1,0 +1,100 @@
+    1  apt update -y
+    2  git clone https://github.com/kemvoueric/Devops-easy-learning-jenkins-install.git
+    3  ls
+    4  bash Devops-easy-learning-jenkins-install/jenkins-script-installation.sh 
+    5  cat /var/lib/jenkins/secrets/initialAdminPassword
+    6  ls /var/lib/jenkins
+    7  ls /var/lib/jenkins/jobs/
+    8  mv /home/ubuntu/* .
+    9  ls
+   10  apt install docker.io
+   11  systemctl start docker 
+   12  docker images
+   13  pwd
+   14  cd /var/lib/jenkins
+   15  ls
+   16  ls logs
+   17  cd jobs/
+   18  ls
+   19  rm -rf  whatrsapp-1  whatrsapp-2
+   20  ls
+   21  rm -rf tet  twitter-2
+   22  ls
+   23  git init 
+   24  rm -rf .git/
+   25  mkdir git 
+   26  ls
+   27  cd git 
+   28  git init 
+   29  cp -r ../* . 
+   30  ls
+   31  rm -rf git/
+   32  git add jobs1  test  test2  testr  testsdf
+   33  git commit -m "test"
+   34  git branch -M main
+   35  git remote add origin https://github.com/kemvoueric/foucus-jenkins.git
+   36  git push -u origin main
+   37  cd ..
+   38  ls
+   39  cd ..
+   40  cd ~
+   41  vim jenkins-backup.sh
+   42  pwd
+   43  vim jenkins-backup.sh
+   44  chmod +x jenkins-backup.sh 
+   45  ls 
+   46  apt-get update && #apt-get upgrade
+   47  apt-get update && apt-get upgrade
+   48  dpkg -l cron
+   49  apt-get install cron
+   50  systemctl status cron
+   51  ls
+   52  vim /etc/crontab
+   53  cat jenkins-backup.sh 
+   54  vim jenkins-backup.sh 
+   55  ls
+   56  rm -rf Devops-easy-learning-jenkins-install  Dockerfile snap/
+   57  ls
+   58  vim /etc/crontab
+   59  ls
+   60  cd /var/lib/jenkins/jobs/
+   61  ls
+   62  rm -rf git 
+   63  ls
+   64  cd geradinejob
+   65  ls
+   66  ls /root/
+   67  cat config.xml
+   68  ls /root/
+   69  crontab -e
+   70  ls
+   71  cat config.xml
+   72  ls /root/
+   73  rm -rf /root/daily_jenkins_backup
+   74  ls /root/
+   75  ls
+   76  cat nextBuildNumber
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd ..
+   81  ls 
+   82  cd jobs/
+   83  ls
+   84  mkdir git-transfer-to-pierre 
+   85  cd git-transfer-to-pierre/
+   86  ls
+   87  git init 
+   88  cd ..
+   89  ls
+   90  cp -r pierre  git-transfer-to-pierre
+   91  ls git-transfer-to-pierre/
+   92  cd git-transfer-to-pierre/
+   93  cp -r ../test .
+   94  ls
+   95  git add . ; git commit -m "please clone this directory" ; 
+   96  git branch -M main
+   97  git remote add origin https://github.com/kemvoueric/pierre.git
+   98  git push -u origin main
+   99  history
+  100  history > file
